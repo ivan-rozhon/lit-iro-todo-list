@@ -3,7 +3,7 @@ node_modules/
 /test/
 custom-elements.json
 # top level source
-iro-todo.js
-iro-todo.js.map
-iro-todo.d.ts
-iro-todo.d.ts.map
+iro-todo-list.js
+iro-todo-list.js.map
+iro-todo-list.d.ts
+iro-todo-list.d.ts.map

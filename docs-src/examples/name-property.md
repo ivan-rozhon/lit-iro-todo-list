@@ -1,15 +1,15 @@
 ---
 layout: example.11ty.cjs
-title: <iro-todo> ⌲ Examples ⌲ Name Property
+title: <iro-todo-list> ⌲ Examples ⌲ Name Property
 tags: example
 name: Name Property
 description: Setting the name property
 ---
 
-<iro-todo name="Earth"></iro-todo>
+<iro-todo-list name="Earth"></iro-todo-list>
 
 <h3>HTML</h3>
 
 ```html
-<iro-todo name="Earth"></iro-todo>
+<iro-todo-list name="Earth"></iro-todo-list>
 ```

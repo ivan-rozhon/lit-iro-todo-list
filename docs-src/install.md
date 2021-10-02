@@ -1,16 +1,16 @@
 ---
 layout: page.11ty.cjs
-title: <iro-todo> ⌲ Install
+title: <iro-todo-list> ⌲ Install
 ---
 
 # Install
 
-`<iro-todo>` is distributed on npm, so you can install it locally or use it via npm CDNs like unpkg.com.
+`<iro-todo-list>` is distributed on npm, so you can install it locally or use it via npm CDNs like unpkg.com.
 
 ## Local Installation
 
 ```bash
-npm i iro-todo
+npm i iro-todo-list
 ```
 
 ## CDN
@@ -22,11 +22,11 @@ For this element to work from unpkg.com specifically, you need to include the `?
 ### HTML
 
 ```html
-<script type="module" src="https://unpkg.com/iro-todo?module"></script>
+<script type="module" src="https://unpkg.com/iro-todo-list?module"></script>
 ```
 
 ### JavaScript
 
 ```html
-import {IroTodo} from 'https://unpkg.com/iro-todo?module';
+import {IroTodoList} from 'https://unpkg.com/iro-todo-list?module';
 ```

@@ -10,9 +10,9 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'iro-todo.js',
+  input: 'iro-todo-list.js',
   output: {
-    file: 'iro-todo.bundled.js',
+    file: 'iro-todo-list.bundled.js',
     format: 'esm',
   },
   onwarn(warning) {

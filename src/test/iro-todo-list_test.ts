@@ -4,19 +4,19 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-import {IroTodo} from '../iro-todo.js';
+import {IroTodoList} from '../iro-todo-list.js';
 
 import {fixture, assert} from '@open-wc/testing';
 import {html} from 'lit/static-html.js';
 
-suite('iro-todo', () => {
+suite('iro-todo-list', () => {
   test('is defined', () => {
-    const el = document.createElement('iro-todo');
-    assert.instanceOf(el, IroTodo);
+    const el = document.createElement('iro-todo-list');
+    assert.instanceOf(el, IroTodoList);
   });
 
   test('renders with default values', async () => {
-    const el = await fixture(html`<iro-todo></iro-todo>`);
+    const el = await fixture(html`<iro-todo-list></iro-todo-list>`);
     assert.shadowDom.equal(
       el,
       `
@@ -28,7 +28,7 @@ suite('iro-todo', () => {
   });
 
   test('renders with a set name', async () => {
-    const el = await fixture(html`<iro-todo name="Test"></iro-todo>`);
+    const el = await fixture(html`<iro-todo-list name="Test"></iro-todo-list>`);
     assert.shadowDom.equal(
       el,
       `
@@ -40,7 +40,7 @@ suite('iro-todo', () => {
   });
 
   test('handles a click', async () => {
-    const el = (await fixture(html`<iro-todo></iro-todo>`)) as IroTodo;
+    const el = (await fixture(html`<iro-todo-list></iro-todo-list>`)) as IroTodoList;
     const button = el.shadowRoot!.querySelector('button')!;
     button.click();
     await el.updateComplete;
@@ -55,7 +55,7 @@ suite('iro-todo', () => {
   });
 
   test('styling applied', async () => {
-    const el = (await fixture(html`<iro-todo></iro-todo>`)) as IroTodo;
+    const el = (await fixture(html`<iro-todo-list></iro-todo-list>`)) as IroTodoList;
     await el.updateComplete;
     assert.equal(getComputedStyle(el).paddingTop, '16px');
   });

@@ -1,27 +1,27 @@
 ---
 layout: page.11ty.cjs
-title: <iro-todo> ⌲ Home
+title: <iro-todo-list> ⌲ Home
 ---
 
-# &lt;iro-todo>
+# &lt;iro-todo-list>
 
-`<iro-todo>` is an awesome element. It's a great introduction to building web components with LitElement, with nice documentation site as well.
+`<iro-todo-list>` is an awesome element. It's a great introduction to building web components with LitElement, with nice documentation site as well.
 
 ## As easy as HTML
 
 <section class="columns">
   <div>
 
-`<iro-todo>` is just an HTML element. You can it anywhere you can use HTML!
+`<iro-todo-list>` is just an HTML element. You can it anywhere you can use HTML!
 
 ```html
-<iro-todo></iro-todo>
+<iro-todo-list></iro-todo-list>
 ```
 
   </div>
   <div>
 
-<iro-todo></iro-todo>
+<iro-todo-list></iro-todo-list>
 
   </div>
 </section>
@@ -31,16 +31,16 @@ title: <iro-todo> ⌲ Home
 <section class="columns">
   <div>
 
-`<iro-todo>` can be configured with attributed in plain HTML.
+`<iro-todo-list>` can be configured with attributed in plain HTML.
 
 ```html
-<iro-todo name="HTML"></iro-todo>
+<iro-todo-list name="HTML"></iro-todo-list>
 ```
 
   </div>
   <div>
 
-<iro-todo name="HTML"></iro-todo>
+<iro-todo-list name="HTML"></iro-todo-list>
 
   </div>
 </section>
@@ -50,7 +50,7 @@ title: <iro-todo> ⌲ Home
 <section class="columns">
   <div>
 
-`<iro-todo>` can be used with declarative rendering libraries like Angular, React, Vue, and lit-html
+`<iro-todo-list>` can be used with declarative rendering libraries like Angular, React, Vue, and lit-html
 
 ```js
 import {html, render} from 'lit-html';
@@ -59,8 +59,8 @@ const name = 'lit-html';
 
 render(
   html`
-    <h2>This is a &lt;iro-todo&gt;</h2>
-    <iro-todo .name=${name}></iro-todo>
+    <h2>This is a &lt;iro-todo-list&gt;</h2>
+    <iro-todo-list .name=${name}></iro-todo-list>
   `,
   document.body
 );
@@ -69,8 +69,8 @@ render(
   </div>
   <div>
 
-<h2>This is a &lt;iro-todo&gt;</h2>
-<iro-todo name="lit-html"></iro-todo>
+<h2>This is a &lt;iro-todo-list&gt;</h2>
+<iro-todo-list name="lit-html"></iro-todo-list>
 
   </div>
 </section>

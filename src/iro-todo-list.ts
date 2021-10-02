@@ -14,8 +14,8 @@ import {customElement, property} from 'lit/decorators.js';
  * @slot - This element has a slot
  * @csspart button - The button
  */
-@customElement('iro-todo')
-export class IroTodo extends LitElement {
+@customElement('iro-todo-list')
+export class IroTodoList extends LitElement {
   static override styles = css`
     :host {
       display: block;
@@ -63,6 +63,6 @@ export class IroTodo extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    'iro-todo': IroTodo;
+    'iro-todo-list': IroTodoList;
   }
 }

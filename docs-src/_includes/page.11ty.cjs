@@ -20,7 +20,7 @@ module.exports = function (data) {
     <script src="/node_modules/lit/polyfill-support.js"></script>
     <script type="module" src="${relative(
       page.url,
-      '/iro-todo.bundled.js'
+      '/iro-todo-list.bundled.js'
     )}"></script>
   </head>
   <body>

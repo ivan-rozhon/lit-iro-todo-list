@@ -6,7 +6,7 @@ module.exports = class Docs {
   data() {
     return {
       layout: 'page.11ty.cjs',
-      title: '<iro-todo> ⌲ Docs',
+      title: '<iro-todo-list> ⌲ Docs',
     };
   }
 
